@@ -1,0 +1,28 @@
+
+Cara Menggunakan Github Via Terminal (Create, Clone, Push)
+
+Lagi belajar git dan mulai menemukan kebingungan pada saat mau kirim ke Github, nah loh? dan saya menemukan solusinya dan ingin saya catatkan di sini biar kalo lupa mudah nyarinya. :D
+Buat Reposatori baru di Terminal
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nama akun/test.git
+git push -u origin master
+
+Anda juga bisa buat reposatori via akun Github anda kemudian anda clone
+Cloning Reposatori
+
+git clone https://github.com/nama akun/nama repo.git
+
+Menambahkan File & Push File di Github
+
+Untuk menambahkan beberapa file ke repo yang telah dibuat ketikkan
+
+cd direktori/ //Masuk ke direktori yang sudah di clone tadi
+git add nama file atau * //tanda bintang untuk beberapa file sekaligus
+git commit -m "first commit" //dalam tanda petik tulisan pesan
+git push //masukkan nama pengguna dan kata sandi
+
+Cuma itu aja dulu ya, semoga ada guna dan manfaatnya.
